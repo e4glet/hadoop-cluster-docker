@@ -57,6 +57,13 @@ root@hadoop-master:~#
 root@hadoop-master:~#./start-hadoop.sh
 ```
 
+
+8. 移除容器
+```c
+./remove-container.sh 5
+```
+
+
 到此完成。  
 
 再次感谢原作者kiwenlau，为我们快速创建Hadoop集群提供了非常好的解决方案。
