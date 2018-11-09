@@ -33,8 +33,13 @@ docker network create --driver=bridge hadoop
 ```c
 cd hadoop-cluster-docker
 ```
-5. 重新构建Docker镜像
-以创建5个节点为例（1主4从）  
+5. 重新构建Docker镜像  
+以创建5个节点为例（1主4从）    
+注意：如果脚本文件没有执行权限  
+
+执行chmod 777 resize-cluster.sh  
+给脚本文件添加权限
+
 ```c
 ./resize-cluster.sh 5
 ```
